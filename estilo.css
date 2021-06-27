@@ -1,0 +1,52 @@
+.table1{
+    border-color: black;
+    backdrop-filter: blur(50px);
+    position: marker;
+}
+.box{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+body{
+    background-image: url("img/Fondo.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+h1{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+}
+td{
+    font-size: 45px;
+}
+button{
+    background: linear-gradient(to bottom,#44c767 5%,#5cbf2a 100%);
+    background-color: #44c767 ;
+    border-radius: 25px;
+    border:2px solid #18ab29;
+    display: inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 13px 31px;
+    text-decoration: none;
+    text-shadow:1px 1px 6px #2f6627;
+}
+    button:hover{
+        background:linear-gradient(to bottom, #5cbf2a 5%,#44c767 100%);
+        background-color: #5cbf2a;
+    }
+    button:active{
+        position: relative;
+        top:1px;
+    }
